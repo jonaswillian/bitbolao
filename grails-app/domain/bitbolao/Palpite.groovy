@@ -9,4 +9,26 @@ class Palpite {
 		
     static constraints = {
     }
+	
+	static mapping= {
+		version false
+		id generator: 'increment', sqlType: 'tinyint'
+	}
+	
+	double pontuacao(){
+		if ((jogo.golsTime1 ==this.golsTime1) && (jogo.golsTime2==this.golsTime2))
+		{
+			usuario.pontos += 4
+			if (jogo.golsTime1!=jogo.golsTime2)
+			{
+				usuario.pontos += 3
+			}
+		}
+		
+		if ((jogo.golsTime1 == this.golsTime1) || (jogo.golsTime2 == this.golsTime2))
+		{
+			usuario.pontos += 0.5
+		}
+	}	
+	
 }
