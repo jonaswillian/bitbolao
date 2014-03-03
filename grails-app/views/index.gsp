@@ -30,12 +30,12 @@
 			
 		<div id="box">
 			<p class="tituloBox" style="color:#006313; border-bottom:2px solid #006313;">CONHE&Ccedil;A OS EST&Aacute;DIOS</p>
-			<div align="center"><a href="conhecaEstadios.gsp"><img src="${resource(dir: '/images', file: 'conhecaEstadios.jpg')}" /></a></div>
+			<div align="center"><g:link controller="estadios"><img src="${resource(dir: '/images', file: 'conhecaEstadios.jpg')}" /></g:link></div>
 		</div>
 		
 		<div id="box">
 			<p class="tituloBox" style="color:#006313; border-bottom:2px solid #006313;">AS SELE&Ccedil;&Otilde;ES E SEUS CRAQUES</p>
-			<div align="center"><a href="selecoesCraques.gsp"><img src="${resource(dir: '/images', file: 'selecoesECraques.jpg')}" border="0" class="img-style efeito" /></a></div>
+			<div align="center"><g:link controller="selecoes"><img src="${resource(dir: '/images', file: 'selecoesECraques.jpg')}" border="0" class="img-style efeito" /></g:link></div>
 		</div>
 			
 		<div class="clear"></div>

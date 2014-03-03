@@ -113,5 +113,38 @@ body {
 
 .data{padding:15px; border:1px dotted #ff9900; background:#f1f1f1; color:#000000; font-size:22px; font-family: 'Dosis', sans-serif; font-weight:bold;}
 
+.estadio{
+	font-size:20px;
+	font-weight:600;
+	color:#ffb400;
+	border-left:5px solid #ffb400;
+	padding-left:12px;
+}
+
+.descricaoEstadio{
+	font-size:13px;
+	color:#cccccc;
+	padding:5px 20px;
+	margin-top:-25px;
+}
+
+.fotoEstadio{
+	width:935px;
+	height:120px;
+	border:2px solid #cccccc;
+}
+
+.infoEstadio{
+	font-size:15px;
+	color:#cccccc;
+	padding:10px 0px;
+	font-weight:bold;
+}
+
+.selecao{
+	padding:10px 5px;
+	background-color:#f1f1f1;
+}
+
 
 

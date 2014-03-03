@@ -14,7 +14,7 @@
 		<input type="submit" value="Logar" name="Logar" class="bot" />
 	</form>
 	
-	<p><g:link controller="cadastro" target="_parent">Ainda n&atilde;o &eacute; membro? Cadastre-se agora!</g:link></p>
+	<p><g:link controller="regras" target="_parent">Ainda n&atilde;o &eacute; membro? Cadastre-se agora!</g:link></p>
 	
 	</body>
 </html>
